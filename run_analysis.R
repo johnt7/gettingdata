@@ -1,17 +1,16 @@
 library(dplyr)
 
-
 #files of interest
-featureFileName <- "UCI HAR Dataset/features.txt"
-activityFileName <- "UCI HAR Dataset/activity_labels.txt"
+featureFileName <- "features.txt"
+activityFileName <- "activity_labels.txt"
 
-trainTableFileName <- "UCI HAR Dataset/train/X_train.txt"
-trainSubjectFileName <- "UCI HAR Dataset/train/subject_train.txt"
-tainActivityFileName <- "UCI HAR Dataset/train/y_train.txt"
+trainTableFileName <- "train/X_train.txt"
+trainSubjectFileName <- "train/subject_train.txt"
+tainActivityFileName <- "train/y_train.txt"
 
-testTableFileName <- "UCI HAR Dataset/test/X_test.txt"
-testSubjectFileName <- "UCI HAR Dataset/test/subject_test.txt"
-testActivityFileName <- "UCI HAR Dataset/test/y_test.txt"
+testTableFileName <- "test/X_test.txt"
+testSubjectFileName <- "test/subject_test.txt"
+testActivityFileName <- "test/y_test.txt"
 
 outAllFilename <- "allData.csv"
 outSummaryFilename <- "summaryData.csv"
