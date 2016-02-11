@@ -51,5 +51,4 @@ summaryData <- allData %>%
                 summarise_each(funs(sum), 1:66)
                 
 
-write.table(allData, outAllFilename, row.names=FALSE)
 write.table(summaryData, outSummaryFilename, row.names=FALSE)

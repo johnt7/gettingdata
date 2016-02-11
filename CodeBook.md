@@ -101,4 +101,6 @@ mean(): Mean value
 std(): Standard deviation
 ```
 
-TODO - description of the data rows for the two tables.
+## Data rows
+The in the input file and in the main data file represent instances of a particular activity for a particular person.  There are multiple instances for each activity for each user.
+The resultant data set is the mean of each value column over all instances of a particular subject performing an activity.
