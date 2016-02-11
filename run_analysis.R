@@ -44,7 +44,7 @@ colnames(allData) <- featureNames
 allData$subject <- c(trainSubjects[,1],testSubjects[,1])
 allData$activity <- activities[c(trainActivity[,1], testActivity[,1]),2]
 
-
+# generate the summary data
 summaryData <- allData %>%
                 group_by(subject, activity) %>%
                 summarise_each(funs(sum), 1:66)
