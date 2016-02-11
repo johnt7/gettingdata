@@ -12,8 +12,7 @@ testTableFileName <- "test/X_test.txt"
 testSubjectFileName <- "test/subject_test.txt"
 testActivityFileName <- "test/y_test.txt"
 
-outAllFilename <- "allData.csv"
-outSummaryFilename <- "summaryData.csv"
+outSummaryFilename <- "summaryData.txt"
 
 
 # Load the features and activity names and clean them a bit.
